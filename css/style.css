@@ -248,13 +248,13 @@ nav .menu li:nth-child(2){
 .services .title-section{
     margin-bottom: 122px;
 }
-.services .sign{
-    margin-bottom: 36px;
-}
 .services .actions{
     font-size: 14px;
     letter-spacing: 6px;
     margin-bottom: 68px;
+}
+.services .actions .sign{
+    margin-bottom: 36px;
 }
 .services .author{
     margin-bottom: 171px;
@@ -341,20 +341,20 @@ nav .menu li:nth-child(2){
 }
 
 .feedback{
-    position: relative;
+    /*position: relative;*/
 }
-.feedback .btn-next-page{
-    display: inline-block;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-.feedback .left-btn{
-    left: 0;
-}
-.feedback .right-btn{
-    right: 0;
-}
+/*.feedback .btn-next-page{*/
+/*    display: inline-block;*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    transform: translateY(-50%);*/
+/*}*/
+/*.feedback .left-btn{*/
+/*    left: 0;*/
+/*}*/
+/*.feedback .right-btn{*/
+/*    right: 0;*/
+/*}*/
 .feedback .sign{
     margin-top: 140px;
     margin-bottom: 23px;
@@ -369,7 +369,7 @@ nav .menu li:nth-child(2){
     font-size: 18px;
     line-height: 30px;
     font-weight: 300;
-    max-width: 100%;
+    max-width: 40%;
     margin-bottom: 26px;
 }
 .feedback .author{
