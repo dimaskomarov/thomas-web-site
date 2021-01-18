@@ -244,6 +244,33 @@ nav .menu li:nth-child(2){
 .about .employees .profession{
     margin-bottom: 143px;
 }
+.about .card-wrap {
+    position: relative;
+    overflow: hidden;
+}
+.about .card-wrap:hover .card-overlay {
+    transform: translateY(0);
+}
+.about .card-overlay {
+    background: #111;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(-100%);
+    transition: transform .3s;
+    /*TODO make pattern*/
+    /*TODO rename photo -> card-img, card- ...*/
+}
+.about .skills .rating{
+    height: 12px;
+    background-color: #363636;
+}
+.about .skills .rating .fullness{
+    height: 100%;
+    background-color: #cdcdcd;
+}
 
 .services .title-section{
     margin-bottom: 122px;
